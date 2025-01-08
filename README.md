@@ -1,14 +1,12 @@
 # Skill Crafters
 
-**Skill Crafters** is an educational web platform that allows users to explore, book, and manage various learning services. Built with React.js, it connects users with service providers to facilitate personalized learning experiences.
-
 ![Skill Crafters Screenshot](https://i.ibb.co.com/zfngPVx/skill-crafters.png)
 
 ---
 
 ## Overview
 
-Skill Crafters provides a seamless platform for both users and service providers to manage and book educational services. Users can explore available services, book their favorites, and track their bookings with ease.
+**Skill Crafters** is an advanced educational web platform designed to connect learners with a wide range of personalized learning services. Built with React.js and a robust backend powered by Node.js, Express, and MongoDB, it offers seamless features for users to explore, book, and manage educational services. The platform fosters an interactive and user-friendly environment, enabling service providers to share expertise while helping users achieve their learning goals efficiently. With secure JWT-based authentication and real-time updates, Skill Crafters ensures a modern and engaging learning experience for all.
 
 ---
 
