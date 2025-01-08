@@ -1,65 +1,103 @@
-# assignment_category_02
-
 # Skill Crafters
 
-Skill Crafters is a service-sharing web application built using React.js. This platform enables users to add, update, and delete their own services, explore services shared by others, book services, and manage the statuses of booked services. The goal is to provide a user-friendly experience for managing and utilizing educational services effectively.
+**Skill Crafters** is an educational web platform that allows users to explore, book, and manage various learning services. Built with React.js, it connects users with service providers to facilitate personalized learning experiences.
 
-## Features
+![Skill Crafters Screenshot](https://i.ibb.co.com/V0GBwfj/skill-crafters.png)
 
-- **Service Management:**
+---
 
-  - Add new services with detailed descriptions and categories.
-  - Update service details to keep information relevant.
-  - Delete services no longer offered.
+## Overview
 
-- **Service Browsing:**
+Skill Crafters provides a seamless platform for both users and service providers to manage and book educational services. Users can explore available services, book their favorites, and track their bookings with ease.
 
-  - Explore a variety of services shared by other users.
-  - Use search options to find specific services.
+---
 
-- **Service Booking:**
+## Technologies Used
+### Frontend
+- **React.js**: A JavaScript library for building user interfaces.
+- **React Router**: For routing between pages.
+- **React-Helmet-Async**: For managing meta tags and SEO.
+- **React Icons**: For customizable icons.
+- **Swiper**: For interactive, touch-friendly sliders.
+- **Firebase**: For user authentication and database management.
+- **Tailwind CSS**: For utility-first CSS styling.
+- **Axios**: For making HTTP requests.
+- **React-Toastify**: For showing toast notifications.
+- **SweetAlert2**: For displaying interactive alerts.
 
-  - Book services with ease.
-  - View booking details in the user dashboard.
+---
 
-- **Status Management:**
+### Hosting
+- **Firebase Hosting**: For deploying the frontend application.
 
-  - Update and monitor the statuses of booked services.
+---
 
-- **Responsive Design:**
+## Main Features
+- **Service Discovery**: Users can explore a variety of educational services.
+- **Booking System**: Users can securely book services and track their bookings.
+- **User Authentication**: Users can sign up and log in using Firebase Authentication.
+- **Responsive Design**: A mobile-first, fully responsive design that adapts to different devices.
+- **Service Management**: Service providers can add, update, and manage their services.
 
-  - Optimized for both desktop, tablet and mobile devices.
+---
 
-- **Dark Mode:**
-  - Toggle between light and dark themes for better user experience.
+## Dependencies
 
-## Tech Stack
+The project uses the following dependencies:
 
-- **Frontend:**
+- `axios`: ^1.7.9
+- `firebase`: ^11.1.0
+- `localforage`: ^1.10.0
+- `match-sorter`: ^8.0.0
+- `motion`: ^11.15.0
+- `react`: ^18.3.1
+- `react-dom`: ^18.3.1
+- `react-helmet-async`: ^2.0.5
+- `react-icons`: ^5.4.0
+- `react-router-dom`: ^7.1.0
+- `react-toastify`: ^11.0.2
+- `sort-by`: ^1.2.0
+- `sweetalert2`: ^11.15.3
+- `swiper`: ^11.1.15
 
-  - React.js
-  - React Router
-  - Axios
-  - Tailwind CSS
-  - Framer Motion
-  - react-toastify
-  - react-icons
-  - sweetalert2
+---
 
-- **Backend:**
+## Dev Dependencies
 
-  - Node.js with Express.js
-  - MongoDB
+Development dependencies include:
 
-- **Authentication:**
+- `@eslint/js`: ^9.17.0
+- `@types/react`: ^18.3.17
+- `@types/react-dom`: ^18.3.5
+- `@vitejs/plugin-react`: ^4.3.4
+- `autoprefixer`: ^10.4.20
+- `daisyui`: ^4.12.22
+- `eslint`: ^9.17.0
+- `eslint-plugin-react`: ^7.37.2
+- `eslint-plugin-react-hooks`: ^5.0.0
+- `eslint-plugin-react-refresh`: ^0.4.16
+- `globals`: ^15.13.0
+- `postcss`: ^8.4.49
+- `tailwindcss`: ^3.4.17
+- `vite`: ^6.0.3
 
-  - Firebase
-  - JWT (JSON Web Token)
+---
 
-- **Hosting:**
-  - Firebase for frontend deployment
-  - Vercel for backend deployment
+## How to Run Locally
 
-## Website Live Link:
+To run **Skill Crafters** locally, follow these steps:
 
-https://skill-crafters-78d6e.web.app/
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/Ashiqur1819/Skill-Crafters-Client.git
+   cd Skill-Crafters-Client
+
+```
+npm install
+npm run dev
+```
+
+## Live Demo
+https://skill-crafters-78d6e.web.app
+
+---
