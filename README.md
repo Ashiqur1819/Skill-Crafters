@@ -27,6 +27,14 @@ Skill Crafters provides a seamless platform for both users and service providers
 
 ---
 
+### Backend
+- **Node.js**: JavaScript runtime for server-side scripting.
+- **Express.js**: Web framework for building RESTful APIs.
+- **MongoDB**: NoSQL database for storing application data.
+- **JWT (JSON Web Tokens)**: For secure user authentication and authorization.
+- **Cors**: To enable Cross-Origin Resource Sharing.
+- **dotenv**: For managing environment variables securely.
+
 ### Hosting
 - **Firebase Hosting**: For deploying the frontend application.
 
@@ -35,7 +43,7 @@ Skill Crafters provides a seamless platform for both users and service providers
 ## Main Features
 - **Service Discovery**: Users can explore a variety of educational services.
 - **Booking System**: Users can securely book services and track their bookings.
-- **User Authentication**: Users can sign up and log in using Firebase Authentication.
+- **Secure Authentication: JWT-based user login, registration, and role-based access control.
 - **Responsive Design**: A mobile-first, fully responsive design that adapts to different devices.
 - **Service Management**: Service providers can add, update, and manage their services.
 
@@ -89,8 +97,8 @@ To run **Skill Crafters** locally, follow these steps:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/Ashiqur1819/Skill-Crafters-Client.git
-   cd Skill-Crafters-Client
+   git clone https://github.com/Ashiqur1819/Skill-Crafters.git
+   cd Skill-Crafters
 
 ```
 npm install
@@ -98,6 +106,11 @@ npm run dev
 ```
 
 ## Live Demo
+### Live Link:
 https://skill-crafters-78d6e.web.app
+### Client-Side Github Repository:
+https://github.com/Ashiqur1819/Skill-Crafters
+### Server-Side Github Repository:
+https://github.com/Ashiqur1819/Skill-Crafters-Server
 
 ---
