@@ -41,7 +41,7 @@
 ## Main Features
 - **Service Discovery**: Users can explore a variety of educational services.
 - **Booking System**: Users can securely book services and track their bookings.
-- **Secure Authentication: JWT-based user login, registration, and role-based access control.
+- **Secure Authentication**: JWT-based user login, registration, and role-based access control.
 - **Responsive Design**: A mobile-first, fully responsive design that adapts to different devices.
 - **Service Management**: Service providers can add, update, and manage their services.
 
