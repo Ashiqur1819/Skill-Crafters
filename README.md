@@ -100,10 +100,13 @@ To run **Skill Crafters** locally, follow these steps:
    git clone https://github.com/Ashiqur1819/Skill-Crafters.git
    cd Skill-Crafters
 
-```
-npm install
-npm run dev
-```
+2. **Install dependencies:**:
+   ```bash
+   npm install
+
+3. **Start the Application:**:
+   ```bash
+   npm run dev
 
 ## Live Demo
 ### Live Link:
